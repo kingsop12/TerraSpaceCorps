@@ -460,7 +460,7 @@
             <WorkToMake>45000</WorkToMake>
             <Mass>4.6</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
-            <AccuracyShort>0.74</AccuracyShort>
+            <AccuracyShort>0.65</AccuracyShort>
             <AccuracyMedium>0.55</AccuracyMedium>
             <AccuracyLong>0.45</AccuracyLong>
             <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
@@ -497,7 +497,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>TerraSpaceCorps_ChargeRifle_Bullet</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
-                <range>27.9</range>
+                <range>26</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <burstShotCount>4</burstShotCount>
                 <soundCast>TChagre_shot</soundCast>
@@ -535,9 +535,9 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>20</damageAmountBase>
-            <armorPenetrationBase>0.48</armorPenetrationBase>
-            <speed>100</speed>
+            <damageAmountBase>14</damageAmountBase>
+            <armorPenetrationBase>0.37</armorPenetrationBase>
+            <speed>90</speed>
         </projectile>
     </ThingDef>
 
@@ -569,10 +569,10 @@
         <statBases>
             <WorkToMake>45000</WorkToMake>
             <Mass>4</Mass>
-            <AccuracyTouch>0.50</AccuracyTouch>
-            <AccuracyShort>0.70</AccuracyShort>
-            <AccuracyMedium>0.86</AccuracyMedium>
-            <AccuracyLong>0.88</AccuracyLong>
+            <AccuracyTouch>0.30</AccuracyTouch>
+            <AccuracyShort>0.55</AccuracyShort>
+            <AccuracyMedium>0.75</AccuracyMedium>
+            <AccuracyLong>0.92</AccuracyLong>
             <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
         </statBases>
         <equippedAngleOffset>45</equippedAngleOffset>
@@ -586,7 +586,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>TerraSpaceCorps_SniperRifle_Bullet</defaultProjectile>
                 <warmupTime>2.3</warmupTime>
-                <range>44.9</range>
+                <range>45</range>
                 <soundCast>Bolt_shot</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -598,7 +598,7 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>12</power>
+                <power>9</power>
                 <cooldownTime>2</cooldownTime>
             </li>
             <li>
@@ -607,7 +607,7 @@
                     <li>Blunt</li>
                     <li>Poke</li>
                 </capacities>
-                <power>12</power>
+                <power>9</power>
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
@@ -625,7 +625,7 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>40</damageAmountBase>
+            <damageAmountBase>45</damageAmountBase>
             <stoppingPower>5.0</stoppingPower>
             <speed>100</speed>
         </projectile>
